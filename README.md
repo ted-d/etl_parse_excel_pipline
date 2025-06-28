@@ -20,7 +20,7 @@ from openpyxl import load_workbook
 import pandas as pd
 
 ### 2. Основной алгоритм обработки
-![screen](results/scheme.png)
+![screen](etl_project/results/scheme.png)
 ## Все маппинги, огромные словари занесены в отдельный файл map.py
 С целью снятия перегрузки с рабочего кода.
 потому что , дальше я решил после обработки Excel заливать все в бд
