@@ -121,4 +121,5 @@ CREATE TABLE oil_gas_data (
 );
 ```
 3. Заливка в бд
-
+![screen](etl_project/results/image.png)
+![screen](etl_project/results/image2.png)
