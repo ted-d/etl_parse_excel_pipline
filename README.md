@@ -102,9 +102,9 @@ df.to_csv('output/results.csv', index=False, encoding='utf-8-sig')
 
 1. Подключение к PostgreSQL
 ```python
-from sqlalchemy import create_engine
-
-engine = create_engine('')
+import psycopg2
+conn = psycopg2.connect(**DB_CONFIG) #соединение также сокрыто в файле map.py
+cur = conn.cursor()
 ```
 2. Схема БД
 Создаем таблицу
